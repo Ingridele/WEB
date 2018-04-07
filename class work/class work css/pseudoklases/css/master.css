@@ -1,0 +1,37 @@
+div{
+  border: 1px dashed black;
+  height: 100px;
+  width: 100px;
+}
+div:first-child{
+  background-color: red;
+}
+
+div:nth-child(3n+1){
+  background-color: yellow;
+}
+div:hover{
+  background-color: purple;
+}
+div:active{
+  border:13px dashed black;
+}
+a{
+  font-family: mano;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: black;
+  font-size: 18pt;
+  text-shadow: 2px 2px 3px black;
+}
+a:hover{
+  background-color: rgba(20, 73, 140, 0.1);
+  color: red;
+}
+ul{
+  list-style: none;
+}
+@font-face {
+  font-family: mano;
+  src: url(../fonts/mano.ttf);
+}
