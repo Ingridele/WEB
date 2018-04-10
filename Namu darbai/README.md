@@ -58,3 +58,19 @@
   ...
 &lt;/div&gt;
 </pre>
+
+## JS1
+
+* Gerai. dalyba() be tarpelių, toks susitarimas.
+
+## JS2
+
+* Gerai. dalyba() be tarpelių, toks susitarimas... Ir gali jau ištrinti tai ką buvai kitaip supratus :)
+
+## JS3
+
+* Gerai. Tik atitraukimai nuo krašto ir tarpai tarp sklaiustelių ir funkcijos reiktų sutvarkyti.
+
+## JS4
+
+* Gerai. Kam tas tarpelis priekyje teksto, po kabutės: alert(" Ką
