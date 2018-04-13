@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <script type="text/javascript">
+      var preke1 = {
+        numeris: "#1",
+        preke: "Prekė: Atsuktuavs",
+        pagaminimoData: "Pagaminimo data: 2018",
+        spalva: "Spalva: geltona",
+        kaina: "Kaina: 5 EUR"
+      }
+      var preke2 = {
+        numeris: "#2",
+        preke: "Prekė: Raktas",
+        pagaminimoData: "Pagaminimo data: 2018",
+        spalva: "Rankenos spalva: geltona",
+        kaina: "Kaina: 2 EUR"
+      }
+
+      var prekiuMasyvas = [preke1, preke2];
+
+      function prekiuSarasas(prekiuMasyvas){
+
+        for (var i = 0; i < prekiuMasyvas.length; i++) {
+
+          console.log(prekiuMasyvas[i].numeris);
+          console.log(prekiuMasyvas[i].preke);
+          console.log(prekiuMasyvas[i].pagaminimoData);
+          console.log(prekiuMasyvas[i].spalva);
+          console.log(prekiuMasyvas[i].kaina);
+          console.log('\n');
+        }
+      }
+
+      prekiuSarasas(prekiuMasyvas);
+    </script>
+  </body>
+</html>
