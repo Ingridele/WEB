@@ -74,3 +74,23 @@
 ## JS4
 
 * Gerai. Kam tas tarpelis priekyje teksto, po kabutės: alert(" Ką
+
+## JS5
+
+* Puikiai.
+
+## JS6
+
+* Puikiai.
+
+## JS7
+
+* Atitraukimai. Funkcija turi tureti 2 argumentus. Dabartiniu atveju funkcija nera universali ir visada istrina ta pati elementa.
+
+## JS8
+
+* Nėra :(((.
+
+## JS9
+
+* Puikiai.
