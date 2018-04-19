@@ -1,0 +1,36 @@
+h1{
+  color: #3d88d3;
+  text-shadow: 2px 1px 2px grey;
+  margin-bottom: 0px;
+}
+
+h2{
+  color: #3d88d3;
+  font-weight: lighter;
+  margin-bottom: 4px;
+  margin-top: 4px;
+}
+h3{
+  font-weight: lighter;
+  font-variant: small-caps;
+  color: #3d88d3;
+  font-family: Arial, Verdana, sans-serif;
+  letter-spacing: 3px;
+  font-size: 16px;
+  margin-left: 0px;
+}
+p.vienas{
+font-weight: bold;
+}
+p a{
+  text-decoration: none;
+  color: #3d88d3;
+  font-weight: lighter;
+}
+p.trys {
+  text-align: right;
+  font-style: italic;
+}
+p.du, p.trys, a {
+  font-family: "Gill Sans", Arial, sans-serif;
+}

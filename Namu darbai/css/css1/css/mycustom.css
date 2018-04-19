@@ -1,0 +1,13 @@
+
+body {
+  font-family: sans-serif;
+}
+h1,h2 {
+  color:rgb(237, 68, 158);
+}
+span {
+  font-style: italic;
+}
+p.pirmas {
+  font-weight: bold;
+}

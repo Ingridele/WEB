@@ -1,0 +1,19 @@
+
+.btn{
+  /* float: left; */
+  margin: 5px;
+}
+
+div.article{
+  /* border: 1px solid black; */
+  min-width: 50%;
+  height: 300px;
+  float:left;
+  background-color: #e1f5fe;
+}
+h5{
+  text-align: center;
+}
+li.cover{
+  margin:20px;
+}
