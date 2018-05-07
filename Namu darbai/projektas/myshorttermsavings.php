@@ -22,29 +22,29 @@
 
       <nav class=" light-blue darken-3">
         <div class="nav-wrapper">
-          <a href="index.html" class="brand-logo">My finances</a>
+          <a href="index.php" class="brand-logo">My finances</a>
           <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
           <ul class="right hide-on-med-and-down">
-            <li><a href="myplans.html">Register outcomes/incomes</a></li>
-            <li><a href="myplans.html">My plans</a></li>
-            <li><a href="createmonthlyplan.html"> New monthly plan</a></li>
-            <li><a href="createsavingsplan.html">New savings plan</a></li>
+            <li><a href="registeroutcomesincomes.php">Register outcomes/incomes</a></li>
+            <li><a href="myplans.php">My plans</a></li>
+            <li><a href="createmonthlyplan.php"> New monthly plan</a></li>
+            <li><a href="createsavingsplan.php">New savings plan</a></li>
           </ul>
         </div>
       </nav>
 
       <ul class="sidenav" id="mobile-demo">
-        <li><a href="myplans.html">Register outcomes/incomes</a></li>
-        <li><a href="myplans.html">My plans</a></li>
-        <li><a href="createmonthlyplan.html"> New monthly plan</a></li>
-        <li><a href="createsavingsplan.html">New savings plan</a></li>
+        <li><a href="registeroutcomesincomes.php">Register outcomes/incomes</a></li>
+        <li><a href="myplans.php">My plans</a></li>
+        <li><a href="createmonthlyplan.php"> New monthly plan</a></li>
+        <li><a href="createsavingsplan.php">New savings plan</a></li>
       </ul>
 
       <article class="row">
         <div class="col s12 l12">
           <div class="box">
             <figure>
-              <figcaption>{MONTH}</figcaption>
+              <figcaption>{SHORT-TERM-SAVINGS}</figcaption>
               <table>
                 <tr>
                   <th>Date</th>
@@ -57,12 +57,6 @@
                   <td></td>
                   <td></td>
                   <td></td>
-                </tr>
-                <tr>
-                  <th>Other outcomes</th>
-                  <th>Planed</th>
-                  <th>Fact</th>
-                  <th>Status</th>
                 </tr>
               </table>
             </figure>

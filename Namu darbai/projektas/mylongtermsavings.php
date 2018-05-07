@@ -19,31 +19,56 @@
     </head>
 
     <body>
+
       <nav class=" light-blue darken-3">
         <div class="nav-wrapper">
-          <a href="index.html" class="brand-logo">My finances</a>
+          <a href="index.php" class="brand-logo">My finances</a>
           <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
           <ul class="right hide-on-med-and-down">
-            <li><a href="registeroutcomesincomes.html">Register outcomes/incomes</a></li>
-            <li><a href="myplans.html">My plans</a></li>
-            <li><a href="createmonthlyplan.html"> New monthly plan</a></li>
-            <li><a href="createsavingsplan.html">New savings plan</a></li>
+            <li><a href="registeroutcomesincomes.php">Register outcomes/incomes</a></li>
+            <li><a href="myplans.php">My plans</a></li>
+            <li><a href="createmonthlyplan.php"> New monthly plan</a></li>
+            <li><a href="createsavingsplan.php">New savings plan</a></li>
           </ul>
         </div>
       </nav>
 
       <ul class="sidenav" id="mobile-demo">
-        <li><a href="registeroutcomesincomes.html">Register outcomes/incomes</a></li>
-        <li><a href="myplans.html">My plans</a></li>
-        <li><a href="createmonthlyplan.html"> New monthly plan</a></li>
-        <li><a href="createsavingsplan.html">New savings plan</a></li>
+        <li><a href="registeroutcomesincomes.php">Register outcomes/incomes</a></li>
+        <li><a href="myplans.php">My plans</a></li>
+        <li><a href="createmonthlyplan.php"> New monthly plan</a></li>
+        <li><a href="createsavingsplan.php">New savings plan</a></li>
       </ul>
 
+      <?php
 
-      <article class="row">
-          
-      </article>
 
+      $long_term_savings = $_POST['long_term_savings'];
+
+
+
+      echo "<table border=\"1\">";
+      echo "<tr>";
+      echo "<th> Date </th>";
+      echo "<th> Planned </th>";
+      echo "<th> Fact </th>";
+      echo "<th> Status </th>";
+      "</tr>";
+
+
+
+      echo "<tr>";
+      echo "<td> </td>";
+      echo "<td> $long_term_savings </td>";
+      echo "<td> Fact </td>";
+      echo "<td> Status </td>";
+      "</tr>";
+
+
+
+      echo "</table>";
+
+      ?>
         <footer class="page-footer, light-blue darken-3">
           <div class="container">
             <div class="row">
@@ -59,5 +84,6 @@
       <script type="text/javascript">
         $('.sidenav').sidenav();
       </script>
+
     </body>
   </html>

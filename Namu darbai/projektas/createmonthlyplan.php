@@ -13,40 +13,40 @@
   <body>
     <nav class=" light-blue darken-3">
       <div class="nav-wrapper">
-        <a href="index.html" class="brand-logo">My finances</a>
+        <a href="index.php" class="brand-logo">My finances</a>
         <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
         <ul class="right hide-on-med-and-down">
-          <li><a href="registeroutcomesincomes.html">Register outcomes/incomes</a></li>
-          <li><a href="myplans.html">My plans</a></li>
-          <li><a href="createmonthlyplan.html"> New monthly plan</a></li>
-          <li><a href="createsavingsplan.html">New savings plan</a></li>
+          <li><a href="registeroutcomesincomes.php">Register outcomes/incomes</a></li>
+          <li><a href="myplans.php">My plans</a></li>
+          <li><a href="createmonthlyplan.php"> New monthly plan</a></li>
+          <li><a href="createsavingsplan.php">New savings plan</a></li>
         </ul>
       </div>
     </nav>
 
     <ul class="sidenav" id="mobile-demo">
-      <li><a href="registeroutcomesincomes.html">Register outcomes/incomes</a></li>
-      <li><a href="myplans.html">My plans</a></li>
-      <li><a href="createmonthlyplan.html"> New monthly plan</a></li>
-      <li><a href="createsavingsplan.html">New savings plan</a></li>
+      <li><a href="registeroutcomesincomes.php">Register outcomes/incomes</a></li>
+      <li><a href="myplans.php">My plans</a></li>
+      <li><a href="createmonthlyplan.php"> New monthly plan</a></li>
+      <li><a href="createsavingsplan.php">New savings plan</a></li>
     </ul>
     <div class="row">
-   <form class="col s12">
+   <form class="col s12" method="post" action="mymonth.php">
      <div class="row">
         <fieldset>
           <legend>Period</legend>
-            Start date: <input type="text" class="datepicker" placeholder="Choose start date">
-            End date: <input type="text" class="datepicker" placeholder="Choose end date">
+            Start date: <input method="post"type="text" class="datepicker" placeholder="Choose start date" id = "start_date">
+            End date: <input type="text" class="datepicker" placeholder="Choose end date" id = "end_date">
         </fieldset>
         <fieldset>
           <legend>Incomes</legend>
           <div class="row">
             <div class="input-field col s6">
-              <input  id="monthly_incomes" type="number" class="validate">
+              <input  id="monthly_incomes" type="number" class="validate" name="income">
               <label for="monthly_incomes">Set your incomes</label>
             </div>
             <div class="input-field col s6">
-              <input  id="monthly_incomes_name" type="text" class="validate">
+              <input  id="monthly_incomes_name" type="text" class="validate" name="income_type">
               <label for="monthly_incomes_name">Set incomes type</label>
             </div>
           </div>
@@ -59,53 +59,48 @@
           <legend>Outcomes</legend>
           <div class="row">
             <div class="input-field col s12 m6">
-              <input  id="daily_spendings_workdays" type="number" class="validate">
-              <label for="daily_spendings_workdays">Set your daily spendings on work days</label>
-            </div>
-            <div class="input-field col s12 m6">
-              <input  id="daily_spendings_weekends" type="number" class="validate">
-              <label for="daily_spendings_weekends">Set your daily spendings on weekends</label>
+              <input  id="daily_spendings" type="number" class="validate" name="daily_spendings">
+              <label for="daily_spendings">Set your daily spendings</label>
             </div>
           </div>
-          <a class="waves-effect waves-light btn">Edit particular days of the month</a>
+
           <div class="row">
             <div class="input-field col s6">
-              <input  id="other_outcomes" type="number" class="validate">
+              <input  id="other_outcomes" type="number" class="validate" name="other_outcomes">
               <label for="other_outcomes">Set other outcomes (amount)</label>
             </div>
             <div class="input-field col s6">
-              <input  id="other_outcomes_name" type="text" class="validate">
+              <input  id="other_outcomes_name" type="text" class="validate" name= "other_outcomes_name">
               <label for="other_outcomes_name">Set the outcomes name</label>
             </div>
+            <div class="fixed-action-btn">
+
+
           </div>
-
-
+          <button id = "add" class="btn waves-effect waves-light custom" type="submit" name="action">Add row<i class="material-icons right">send</i>
+          </button>
 
           <button class="btn waves-effect waves-light custom" type="submit" name="action">Ok<i class="material-icons right">send</i>
-          </button>
+          </button>>
+
+
         </fieldset>
         <fieldset>
           <legend>Savings</legend>
           <div class="row">
             <div class="input-field col s6">
-              <input  id="short_term_savings" type="number" class="validate">
+              <input  id="short_term_savings" type="number" class="validate" name = "short_term_savings">
               <label for="short_term_savings">Set you monthly short-term savings</label>
             </div>
-            <div class="input-field col s6">
-              <input  id="short_term_savings_name" type="text" class="validate">
-              <label for="short_term_savings_name">Set the name (opptional)</label>
-            </div>
           </div>
+
           <div class="row">
             <div class="input-field col s6">
-              <input  id="long_term_savings" type="number" class="validate">
+              <input  id="long_term_savings" type="number" class="validate" name = "long_term_savings">
               <label for="long_term_savings">Set you monthly long-term savings</label>
             </div>
-            <div class="input-field col s6">
-              <input  id="long_term_savings_name" type="text" class="validate">
-              <label for="long_term_savings_name">Set the name (opptional)</label>
-            </div>
           </div>
+
           <button class="btn waves-effect waves-light custom" type="submit" name="action">Ok<i class="material-icons right">send</i>
           </button>
         </fieldset>
@@ -128,6 +123,8 @@
       $('.datepicker').datepicker();
       $('input#input_text, textarea#textarea2').characterCounter();
       $('.dropdown-trigger').dropdown();
+
+
 
     </script>
   </body>

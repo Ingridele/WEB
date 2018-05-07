@@ -26,7 +26,7 @@
               <label for="password">Password</label>
             </div>
           </div>
-          <p> <a href="registracijosforma.html">Naujas vartotojas</a> </p>
+          <p> <a href="registracijosforma.php">Naujas vartotojas</a> </p>
         </form>
       </div>
       <!--JavaScript at end of body for optimized loading-->

@@ -21,29 +21,29 @@
     <body>
       <nav class=" light-blue darken-3">
         <div class="nav-wrapper">
-          <a href="index.html" class="brand-logo">My finances</a>
+          <a href="index.php" class="brand-logo">My finances</a>
           <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
           <ul class="right hide-on-med-and-down">
-            <li><a href="registeroutcomesincomes.html">Register outcomes/incomes</a></li>
-            <li><a href="myplans.html">My plans</a></li>
-            <li><a href="createmonthlyplan.html"> New monthly plan</a></li>
-            <li><a href="createsavingsplan.html">New savings plan</a></li>
+            <li><a href="registeroutcomesincomes.php">Register outcomes/incomes</a></li>
+            <li><a href="myplans.php">My plans</a></li>
+            <li><a href="createmonthlyplan.php"> New monthly plan</a></li>
+            <li><a href="createsavingsplan.php">New savings plan</a></li>
           </ul>
         </div>
       </nav>
 
       <ul class="sidenav" id="mobile-demo">
-        <li><a href="registeroutcomesincomes.html">Register outcomes/incomes</a></li>
-        <li><a href="myplans.html">My plans</a></li>
-        <li><a href="createmonthlyplan.html"> New monthly plan</a></li>
-        <li><a href="createsavingsplan.html">New savings plan</a></li>
+        <li><a href="registeroutcomesincomes.php">Register outcomes/incomes</a></li>
+        <li><a href="myplans.php">My plans</a></li>
+        <li><a href="createmonthlyplan.php"> New monthly plan</a></li>
+        <li><a href="createsavingsplan.php">New savings plan</a></li>
       </ul>
 
 
       <article class="row">
         <div class="col s12 l6">
           <div class="box">
-            <h5><a href="mymonth.html">My month</a></h5>
+            <h5><a href="mymonth.php">My month</a></h5>
             <ul  >
               <li class="cover">Balance  {reiksme}</li>
               <li class="cover">Money left</li>
@@ -53,7 +53,7 @@
         </div>
         <div class="col s12 l6">
             <div class="box">
-            <h5> <a href="myshorttermsavings.html">My short-term savings</a> </h5>
+            <h5> <a href="myshorttermsavings.php">My short-term savings</a> </h5>
             <ul  >
               <li class="cover">Balance</li>
               <li class="cover">Money left</li>
@@ -63,7 +63,7 @@
         </div>
         <div class="col s12 l6">
           <div class="box">
-            <h5> <a href="mylongtermsavings.html">My long-term savings</a></h5>
+            <h5> <a href="mylongtermsavings.php">My long-term savings</a></h5>
             <ul  >
               <li class="cover">Balance</li>
               <li class="cover">Money left</li>
@@ -74,6 +74,9 @@
         <div class="col s12 l6">
             <div class="box">
             <h5>Income/Outcome history</h5>
+            <li class="cover">Balance  {reiksme}</li>
+            <li class="cover">Money left</li>
+            <li class="cover">If I keep it accourding to the plan in the end of the month I will have</li>
           </div>
         </div>
       </article>
